@@ -1,0 +1,450 @@
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Navbar              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.navbar {
+    background-color: var(--base-200) !important;
+    padding: 30px 10px !important;
+    margin: 0 .9rem !important;
+    margin-top: .9rem !important;
+    z-index: 3 !important;
+    border-radius: 8px !important;
+    box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+    -webkit-box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+    -moz-box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+}
+
+.navbar-brand {
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler,
+.navbar-toggler-icon:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0 !important;
+    transition: .3s !important;
+}
+
+#navbarNav > ul > li:nth-child(n) > button {
+    font-family: 'sofia' !important;
+    background: transparent;
+    border: none;
+    margin: 0 0.5rem;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│            Hero Section           │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+#hero {
+    padding-top: 8rem !important;
+}
+
+#hero>div>p {
+    color: var(--typography);
+    font-family: 'Quicksand' !important;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#hero>div>p>span {
+    color: var(--primary);
+    font-family: 'Quicksand' !important;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#hero .title {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+#hero .subtitle {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+#hero .highlight {
+    background: white;
+    color: #000;
+    opacity: 90%;
+}
+
+#hero .description {
+    color: #5b656a;
+    font-weight: 400;
+    font-family: 'sofia';
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#hero .btn {
+    background: var(--primary);
+    border: none;
+    color: black;
+    border-radius: 3px;
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    transition: 0.1s;
+}
+
+#hero .btn:hover {
+    transform: translateY(-0.3rem);
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Banner              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.banner {
+    color: #fff !important;
+    background-image: url('https://files.desakulab.com/r/banner.png') !important;
+    background-position: center center !important;
+    margin: 0 .9rem !important;
+    background-size: cover !important;
+    position: relative !important;
+    min-height: 400px !important;
+    padding-top: 60px !important;
+    height: auto !important;
+}
+
+.banner:before {
+    position: absolute !important;
+    height: 100% !important;
+    content: "" !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Banner              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+.about {
+    background: var(--base-200) !important;
+}
+
+.about h1 {
+    font-family: 'cubano' !important;
+}
+
+.about h1 span {
+    color: var(--primary);
+}
+
+.about p {
+    color: #b2becd;
+    font-size: 20px;
+    font-family: 'sofia' !important;
+}
+
+.about p span.highlight {
+    color: rgba(0, 0, 0, 0.748);
+    background: white;
+    padding: 0 0.2rem;
+    font-size: 20px;
+}
+
+.about #cursor {
+    font-weight: 300;
+    color: white;
+}
+
+.about hr {
+    border-top: 8px dashed rgb(40, 40, 40);
+    opacity: 100%;
+    margin: 4rem 0 !important;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│                Labs               │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.lab h1 {
+    font-family: 'cubano' !important;
+}
+
+.lab h1 span {
+    color: rgb(132, 156, 255);
+}
+
+.lab a {
+    color: white;
+    transition: 0.1s;
+}
+
+.lab a .HoverArrow__linePath,
+.lab a .HoverArrow__tipPath {
+    color: rgb(161, 127, 255);
+    transition-property: background-color, opacity;
+}
+
+
+.lab a:hover .HoverArrow__linePath {
+    opacity: 1;
+}
+
+.lab a:hover .HoverArrow__tipPath {
+    transform: translateX(3px);
+}
+
+.HoverArrow {
+    --arrowSpacing: 5px;
+    --arrowHoverTransition: 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    --arrowHoverOffset: translateX(3px);
+    --arrowTipTransform: none;
+    --arrowLineOpacity: 0;
+    position: relative;
+    top: 1px;
+    margin-left: var(--arrowSpacing);
+    stroke-width: 2px;
+    fill: none;
+    stroke: currentColor;
+}
+
+
+.HoverArrow__linePath {
+    --arrowSpacing: 5px;
+    --arrowHoverTransition: 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+    --arrowHoverOffset: translateX(3px);
+    --arrowTipTransform: none;
+    --arrowLineOpacity: 0;
+    opacity: var(--arrowLineOpacity);
+    transition: opacity var(--hoverTransition, var(--arrowHoverTransition));
+}
+
+.HoverArrow__tipPath {
+    transform: none;
+    transition: transform var(--hoverTransition, 150ms cubic-bezier(0.215, 0.61, 0.355, 1));
+}
+
+.lab a:hover .HoverArrow__linePath {
+    opacity: 1;
+}
+
+.lab .card {
+    background-color: var(--base-200);
+    transition: 0.1s;
+}
+
+.lab .card .card-title {
+    font-weight: 900;
+    font-family: 'Quicksand' !important;
+}
+
+.lab .card .card-text {
+    color: #5b656a;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Quicksand !important;
+}
+
+.lab .card span {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0.2rem 0.5rem;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    background: #6149ffdb;
+    color: #ffffff;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│             Promoter              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.promoter {
+    color: #fff !important;
+    background-image: url('https://cdn.abyditya.space/r/Screenshot_2022-11-20_131802.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    position: relative !important;
+    min-height: 200px !important;
+    padding-top: 60px !important;
+    height: auto !important;
+}
+
+.promoter:before {
+    background-color: rgba(4, 4, 4, 0.815) !important;
+    backdrop-filter: blur(4px) !important;
+    position: absolute !important;
+    height: 100% !important;
+    content: "" !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.promoter .first-title {
+    font-family: 'cubano', sans-serif !important;
+    text-transform: lowercase !important;
+    position: relative !important;
+    line-height: 1.2 !important;
+    font-size: 50px !important;
+    z-index: 2 !important;
+}
+
+.promoter .first-title span {
+    font-family: 'cubano', sans-serif !important;
+    text-transform: lowercase !important;
+    position: relative !important;
+    line-height: 1.2 !important;
+    font-size: 50px !important;
+    z-index: 2 !important;
+    padding: 0 0.5rem;
+    background-color: #ff7777;
+}
+
+.promoter .btn {
+    position: relative !important;
+    z-index: 2 !important;
+    border-radius: 2px;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.promoter .btn:hover {
+    background: var(--primary);
+    color: rgb(29, 29, 29);
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Teams               │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.teams h1 {
+    font-family: 'cubano' !important;
+}
+
+.teams h1 span {
+    color: rgb(255, 177, 132);
+}
+
+.teams .profile {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.teams .card {
+    background: var(--base-200) !important;
+}
+
+.teams .card div.name {
+    font-size: 30px;
+}
+
+.teams .card div.name span {
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.teams .card .card {
+    margin-top: 1rem;
+    background: var(--base-300) !important;
+}
+
+.badge.badge-gelar {
+    background: var(--base-100) !important;
+    color: #b2becd !important;
+    font-weight: 600;
+    margin: 3px 3px;
+}
+
+.teams ul li {
+    background: var(--base-200) !important;
+    color: rgb(232, 232, 232);
+    border: none;
+    margin: 0.1rem 0;
+    font-size: 18px;
+    padding: 0.5rem 0.8rem;
+    border-radius: 10px;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Footer              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+footer p.title {
+    color: #b2becd;
+}
+
+footer p.title a {
+    color: #759224;
+    text-decoration: none;
+}
+
+footer p.title a:hover {
+    color: #759224;
+    opacity: 80%;
+    text-decoration: none;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│                Extra              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+@media only screen and (max-width: 600px) {
+    #hero .subtitle {
+        font-size: 50px;
+    }
+
+    .promoter .first-title {
+        font-size: 30px !important;
+    }
+
+    .banner {
+        display: none
+    }
+}
