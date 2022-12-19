@@ -30,7 +30,7 @@ export default function Home() {
       <section className='teams py-5'>
         <Teams />
       </section>
-      <section className='teams py-5'>
+      <section className='footer py-5'>
         <Footer />
       </section>
     </div>

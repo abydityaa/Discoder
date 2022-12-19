@@ -287,7 +287,7 @@
 
 .promoter {
     color: #fff !important;
-    background-image: url('https://cdn.abyditya.space/r/Screenshot_2022-11-20_131802.png') !important;
+    background-image: url('https://files.desakulab.com/r/snow-fall.gif') !important;
     background-position: center center !important;
     background-size: cover !important;
     position: relative !important;
@@ -339,6 +339,33 @@
 .promoter .btn:hover {
     background: var(--primary);
     color: rgb(29, 29, 29);
+}
+
+.promoter .countdown {
+    font-family: 'cubano', sans-serif !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.promoter .countdown p {
+    font-family: 'cubano', sans-serif !important;
+    line-height: 1.2 !important;
+    font-size: 50px !important;
+}
+
+.promoter .greet {
+    position: relative;
+    z-index: 2;
+    font-size: 15px;
+    padding-bottom: 2rem !important;
+}
+
+.promoter .greet span {
+    color: #759224;
+}
+
+.promoter .greet span#e2 {
+    color: #922424;
 }
 
 /*

@@ -48,7 +48,7 @@ export default function Labs() {
                         </div>
                     </div>
                 </div>
-                <Link to='/lessons' className='py-5'>Check more courses <svg class="HoverArrow" width="10" height="10" aria-hidden="true"><g fill-rule="evenodd"><path class="HoverArrow__linePath" d="M0 5h7"/><path class="HoverArrow__tipPath" d="m1 1 4 4-4 4"/></g></svg></Link>
+                <Link to='/lessons' id='promote' className='py-5'>Check more courses <svg class="HoverArrow" width="10" height="10" aria-hidden="true"><g fill-rule="evenodd"><path class="HoverArrow__linePath" d="M0 5h7"/><path class="HoverArrow__tipPath" d="m1 1 4 4-4 4"/></g></svg></Link>
             </div>  
         </>
     )
