@@ -6,7 +6,7 @@ export default function Footer() {
             <footer>
                 <div class="container">
                     <section class="footer text-center">
-                        <p class="title">Find an issue with this page? <a href="https://github.com/abydityaa/discoder/tree/main/src/path/components"
+                        <p class="title">Find an issue with this page? <a href="https://github.com/desakulab/Discoder/tree/main/src/path/components"
                             target="_blank">Fix it on github 👈</a></p>
                         <p class="title">Copyright © 2022<br />
                             Created with <img src="https://cdn.abyditya.space/r/img-smiling-face-with-hearts.png"
